@@ -1,9 +1,10 @@
-function Hello(props) {
+function Hello( {name, message}) {
+  
   return (
     <div>
       <h1>
-        {props.message}{" "} 
-        {props.name}
+        {message}{" "} 
+        {name}
       </h1>
     </div>
   );
