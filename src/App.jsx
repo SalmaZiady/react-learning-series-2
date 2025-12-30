@@ -1,10 +1,11 @@
 import ConditionalComponent from "./components/ConditionalComponent";
+import Counter from "./components/Counter";
 import  Message  from "./components/Message";
 
 function App() {
   return (
     <div className="App">
-     <Message/>
+     <Counter/>
     </div>
   );
 }
